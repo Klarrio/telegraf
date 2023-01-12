@@ -22,7 +22,6 @@ all:
 	$(MAKE) telegraf
 
 deps:
-	go get -u golang.org/x/lint/golint
 	go get github.com/sparrc/gdm
 	gdm restore --parallel=false
 
